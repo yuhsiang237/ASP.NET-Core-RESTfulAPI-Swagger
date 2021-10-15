@@ -1,5 +1,7 @@
-# ASP.NET-Core-RESTfulAPI
-示範在.net core中建置 版控RESTful API 與 Swagger UI
+# ASP.NET-Core-RESTfulAPI-Swagger
+示範在.net core中建置API版本控制  
+可修改apiVersion調用不同版本API，如:v1.0、v1.1、v2.0
+並追加 Swagger UI 產生API文件
 
 ### API規格
 <table>
@@ -10,41 +12,48 @@
 <th>回應文本</th>
 </tr><tr>
 <td>GET</td>
-<td><code>/api/todo</code></td>
+<td><code>{apiVersion}/api/todo</code></td>
 <td>取得所有待辦事項</td>
 <td>無</td>
 <td>待辦事項陣列</td>
 </tr>
 <tr>
 <td>GET</td>
-<td><code>/api/todo/{id}</code></td>
+<td><code>{apiVersion}/api/todo/{id}</code></td>
 <td>依識別碼取得待辦事項</td>
 <td>無</td>
 <td>待辦事項</td>
 </tr>
 <tr>
 <td>POST</td>
-<td><code>/api/todo</code></td>
+<td><code>{apiVersion}/api/todo</code></td>
 <td>新增待辦事項</td>
 <td>待辦事項</td>
 <td>待辦事項</td>
 </tr>
 <tr>
 <td>PUT</td>
-<td><code>/api/todo/{id}</code></td>
+<td><code>{apiVersion}/api/todo/{id}</code></td>
 <td>更新現有的待辦事項</td>
 <td>待辦事項</td>
 <td>待辦事項</td>
 </tr>
 <tr>
 <td>DELETE</td>
-<td><code>/api/todo/{id}</code></td>
+<td><code>{apiVersion}/api/todo/{id}</code></td>
 <td>刪除待辦事項</td>
 <td>無</td>
 <td>待辦事項</td>
 </tr>
 <tr>
-</tr></tbody></table>
+<td>GET</td>
+<td><code>{apiVersion}/api/version</code></td>
+<td>取得API版本</td>
+<td>無</td>
+<td>API版本</td>
+</tr>
+</tbody></table>
+
 
 ### DEMO
 
