@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "cbGs2tqi9wgOu9OKSfY4CiYjGjtLwQ5PVIbva4G5Mx3uBwgOwxqBaFnmbrAtxfUKRVGS9we11dv5U1SX5jbBkg==",
+  "dgSpecHash": "1KxRX2RXDLiz7dpVzNGqRpwH8E9W6xB0DkhoMTpXShoHwBYr5RvdWMRcYsbKSXyChl+ffYLBmFqeaC8GSrKSLA==",
   "success": true,
   "projectFilePath": "C:\\Users\\IDEA3C\\Documents\\work\\20211014\\新增資料夾\\ASP.NET-Core-RESTfulAPI-Swagger\\TodoAPI\\TodoAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\IDEA3C\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\IDEA3C\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
+    "C:\\Users\\IDEA3C\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\5.0.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.5.0.0.nupkg.sha512",
     "C:\\Users\\IDEA3C\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\IDEA3C\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\IDEA3C\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
@@ -40,6 +41,7 @@
     "C:\\Users\\IDEA3C\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
     "C:\\Users\\IDEA3C\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\IDEA3C\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.2\\swashbuckle.aspnetcore.6.2.2.nupkg.sha512",
+    "C:\\Users\\IDEA3C\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.2.2\\swashbuckle.aspnetcore.annotations.6.2.2.nupkg.sha512",
     "C:\\Users\\IDEA3C\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.2\\swashbuckle.aspnetcore.swagger.6.2.2.nupkg.sha512",
     "C:\\Users\\IDEA3C\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.2\\swashbuckle.aspnetcore.swaggergen.6.2.2.nupkg.sha512",
     "C:\\Users\\IDEA3C\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.2\\swashbuckle.aspnetcore.swaggerui.6.2.2.nupkg.sha512",

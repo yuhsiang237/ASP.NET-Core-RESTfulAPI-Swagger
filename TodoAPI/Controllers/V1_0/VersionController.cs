@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 
-namespace TodoAPI.Controllers.V2
+namespace TodoAPI.Controllers.V1_0
 {
-    [ApiVersion("2.0")]
+    [ApiVersion("1.0")]
     [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
     public class VersionController : ControllerBase
@@ -11,7 +11,7 @@ namespace TodoAPI.Controllers.V2
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "api v2" };
+            return new string[] { "api v1.0" };
         }
     }
 }

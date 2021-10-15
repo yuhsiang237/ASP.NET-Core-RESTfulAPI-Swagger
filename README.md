@@ -1,5 +1,6 @@
 # ASP.NET-Core-RESTfulAPI
-示範在.net core中建置RESTful API
+示範在.net core中建置 版控RESTful API 與 Swagger UI
+
 ### API規格
 <table>
 <tbody><tr><th>方法</th>

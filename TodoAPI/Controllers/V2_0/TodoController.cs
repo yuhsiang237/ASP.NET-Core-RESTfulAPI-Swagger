@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TodoAPI.Models;
 
-namespace TodoAPI.Controllers.V2
+namespace TodoAPI.Controllers.V2_0
 {
     [ApiVersion("2.0")]
     [Route("api/v{version:apiVersion}/[controller]")]
@@ -24,6 +24,7 @@ namespace TodoAPI.Controllers.V2
         }
 
         [HttpGet("{id}")]
+
         public async Task<ActionResult<Todo>> GetTodo(int id)
         {
             var obj = await _context.Todos.FindAsync(id);
@@ -37,6 +38,7 @@ namespace TodoAPI.Controllers.V2
         }
 
         [HttpPut("{id}")]
+
         public async Task<ActionResult<Todo>> PutTodo(int id, Todo newObj)
         {
             if (id != newObj.Id)
@@ -74,6 +76,7 @@ namespace TodoAPI.Controllers.V2
         }
 
         [HttpPost]
+
         public async Task<ActionResult<Todo>> PostTodo(Todo newObj)
         {
             var obj = new Todo
@@ -88,6 +91,7 @@ namespace TodoAPI.Controllers.V2
             return CreatedAtAction(nameof(GetTodo), new { id = obj.Id }, obj);
         }
         [HttpDelete("{id}")]
+
         public async Task<ActionResult<Todo>> DeleteTodo(int id)
         {
             var obj = await _context.Todos.FindAsync(id);

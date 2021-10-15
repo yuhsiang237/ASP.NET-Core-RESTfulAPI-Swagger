@@ -215,3 +215,9 @@ C:\Users\IDEA3C\Documents\work\20211014\新增資料夾\ASP.NET-Core-RESTfulAPI-
 C:\Users\IDEA3C\Documents\work\20211014\新增資料夾\ASP.NET-Core-RESTfulAPI-Swagger\TodoAPI\obj\Debug\netcoreapp3.1\TodoAPI.RazorTargetAssemblyInfo.cache
 C:\Users\IDEA3C\Documents\work\20211014\新增資料夾\ASP.NET-Core-RESTfulAPI-Swagger\TodoAPI\obj\Debug\netcoreapp3.1\TodoAPI.csproj.CopyComplete
 C:\Users\IDEA3C\Documents\work\20211014\新增資料夾\ASP.NET-Core-RESTfulAPI-Swagger\TodoAPI\obj\Debug\netcoreapp3.1\TodoAPI.genruntimeconfig.cache
+C:\Users\IDEA3C\Documents\work\20211014\新增資料夾\ASP.NET-Core-RESTfulAPI-Swagger\TodoAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\IDEA3C\Documents\work\20211014\新增資料夾\ASP.NET-Core-RESTfulAPI-Swagger\TodoAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\IDEA3C\Documents\work\20211014\新增資料夾\ASP.NET-Core-RESTfulAPI-Swagger\TodoAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\IDEA3C\Documents\work\20211014\新增資料夾\ASP.NET-Core-RESTfulAPI-Swagger\TodoAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\IDEA3C\Documents\work\20211014\新增資料夾\ASP.NET-Core-RESTfulAPI-Swagger\TodoAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\IDEA3C\Documents\work\20211014\新增資料夾\ASP.NET-Core-RESTfulAPI-Swagger\TodoAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
